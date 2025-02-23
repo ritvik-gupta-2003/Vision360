@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD5D23D2D6A534300E93931 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DBD5D23C2D6A534300E93931 /* RealityKitContent */; };
+		DBD5D2892D6A87FD00E93931 /* cokecan.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBD5D2872D6A87FD00E93931 /* cokecan.txt */; };
+		DBD5D28A2D6A87FD00E93931 /* coke-can-model.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DBD5D2862D6A87FD00E93931 /* coke-can-model.usdz */; };
+		DBD5D2942D6A90B600E93931 /* hackathon360_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DBD5D2932D6A90B600E93931 /* hackathon360_1.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD5D2572D6A534500E93931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD5D22F2D6A534300E93931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD5D2362D6A534300E93931;
+			remoteInfo = BoilerMakeXIIVisionPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBD5D2372D6A534300E93931 /* BoilerMakeXIIVisionPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilerMakeXIIVisionPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD5D23B2D6A534300E93931 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		DBD5D2562D6A534500E93931 /* BoilerMakeXIIVisionProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerMakeXIIVisionProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD5D2862D6A87FD00E93931 /* coke-can-model.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coke-can-model.usdz"; sourceTree = "<group>"; };
+		DBD5D2872D6A87FD00E93931 /* cokecan.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cokecan.txt; sourceTree = "<group>"; };
+		DBD5D2932D6A90B600E93931 /* hackathon360_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hackathon360_1.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DBD5D2392D6A534300E93931 /* BoilerMakeXIIVisionPro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BoilerMakeXIIVisionPro;
+			sourceTree = "<group>";
+		};
+		DBD5D2592D6A534500E93931 /* BoilerMakeXIIVisionProTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BoilerMakeXIIVisionProTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD5D2342D6A534300E93931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD5D23D2D6A534300E93931 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD5D2532D6A534500E93931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD5D22E2D6A534300E93931 = {
+			isa = PBXGroup;
+			children = (
+				DBD5D2882D6A87FD00E93931 /* Coke Can 2 */,
+				DBD5D2392D6A534300E93931 /* BoilerMakeXIIVisionPro */,
+				DBD5D23A2D6A534300E93931 /* Packages */,
+				DBD5D2592D6A534500E93931 /* BoilerMakeXIIVisionProTests */,
+				DBD5D2382D6A534300E93931 /* Products */,
+				DBD5D2952D6A912000E93931 /* Videos */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD5D2382D6A534300E93931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5D2372D6A534300E93931 /* BoilerMakeXIIVisionPro.app */,
+				DBD5D2562D6A534500E93931 /* BoilerMakeXIIVisionProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD5D23A2D6A534300E93931 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5D23B2D6A534300E93931 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		DBD5D2882D6A87FD00E93931 /* Coke Can 2 */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5D2862D6A87FD00E93931 /* coke-can-model.usdz */,
+				DBD5D2872D6A87FD00E93931 /* cokecan.txt */,
+			);
+			path = "Coke Can 2";
+			sourceTree = "<group>";
+		};
+		DBD5D2952D6A912000E93931 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5D2932D6A90B600E93931 /* hackathon360_1.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD5D2362D6A534300E93931 /* BoilerMakeXIIVisionPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD5D25D2D6A534500E93931 /* Build configuration list for PBXNativeTarget "BoilerMakeXIIVisionPro" */;
+			buildPhases = (
+				DBD5D2332D6A534300E93931 /* Sources */,
+				DBD5D2342D6A534300E93931 /* Frameworks */,
+				DBD5D2352D6A534300E93931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DBD5D2392D6A534300E93931 /* BoilerMakeXIIVisionPro */,
+			);
+			name = BoilerMakeXIIVisionPro;
+			packageProductDependencies = (
+				DBD5D23C2D6A534300E93931 /* RealityKitContent */,
+			);
+			productName = BoilerMakeXIIVisionPro;
+			productReference = DBD5D2372D6A534300E93931 /* BoilerMakeXIIVisionPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD5D2552D6A534500E93931 /* BoilerMakeXIIVisionProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD5D2622D6A534500E93931 /* Build configuration list for PBXNativeTarget "BoilerMakeXIIVisionProTests" */;
+			buildPhases = (
+				DBD5D2522D6A534500E93931 /* Sources */,
+				DBD5D2532D6A534500E93931 /* Frameworks */,
+				DBD5D2542D6A534500E93931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD5D2582D6A534500E93931 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBD5D2592D6A534500E93931 /* BoilerMakeXIIVisionProTests */,
+			);
+			name = BoilerMakeXIIVisionProTests;
+			packageProductDependencies = (
+			);
+			productName = BoilerMakeXIIVisionProTests;
+			productReference = DBD5D2562D6A534500E93931 /* BoilerMakeXIIVisionProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD5D22F2D6A534300E93931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DBD5D2362D6A534300E93931 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DBD5D2552D6A534500E93931 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DBD5D2362D6A534300E93931;
+					};
+				};
+			};
+			buildConfigurationList = DBD5D2322D6A534300E93931 /* Build configuration list for PBXProject "BoilerMakeXIIVisionPro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD5D22E2D6A534300E93931;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DBD5D2382D6A534300E93931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD5D2362D6A534300E93931 /* BoilerMakeXIIVisionPro */,
+				DBD5D2552D6A534500E93931 /* BoilerMakeXIIVisionProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD5D2352D6A534300E93931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD5D2942D6A90B600E93931 /* hackathon360_1.mp4 in Resources */,
+				DBD5D2892D6A87FD00E93931 /* cokecan.txt in Resources */,
+				DBD5D28A2D6A87FD00E93931 /* coke-can-model.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD5D2542D6A534500E93931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD5D2332D6A534300E93931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD5D2522D6A534500E93931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD5D2582D6A534500E93931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD5D2362D6A534300E93931 /* BoilerMakeXIIVisionPro */;
+			targetProxy = DBD5D2572D6A534500E93931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBD5D25E2D6A534500E93931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoilerMakeXIIVisionPro/Preview Content\"";
+				DEVELOPMENT_TEAM = VJT82UF4FN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BoilerMakeXIIVisionPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		DBD5D25F2D6A534500E93931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoilerMakeXIIVisionPro/Preview Content\"";
+				DEVELOPMENT_TEAM = VJT82UF4FN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BoilerMakeXIIVisionPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		DBD5D2602D6A534500E93931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		DBD5D2612D6A534500E93931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		DBD5D2632D6A534500E93931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJT82UF4FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BoilerMakeXIIVisionProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilerMakeXIIVisionPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BoilerMakeXIIVisionPro";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		DBD5D2642D6A534500E93931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJT82UF4FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BoilerMakeXIIVisionProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilerMakeXIIVisionPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BoilerMakeXIIVisionPro";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD5D2322D6A534300E93931 /* Build configuration list for PBXProject "BoilerMakeXIIVisionPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD5D2602D6A534500E93931 /* Debug */,
+				DBD5D2612D6A534500E93931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD5D25D2D6A534500E93931 /* Build configuration list for PBXNativeTarget "BoilerMakeXIIVisionPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD5D25E2D6A534500E93931 /* Debug */,
+				DBD5D25F2D6A534500E93931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD5D2622D6A534500E93931 /* Build configuration list for PBXNativeTarget "BoilerMakeXIIVisionProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD5D2632D6A534500E93931 /* Debug */,
+				DBD5D2642D6A534500E93931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBD5D23C2D6A534300E93931 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DBD5D22F2D6A534300E93931 /* Project object */;
+}
